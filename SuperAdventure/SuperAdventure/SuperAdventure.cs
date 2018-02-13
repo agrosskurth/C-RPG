@@ -22,5 +22,10 @@ namespace SuperAdventure
 
             Location loc = new Location(1, "Home", "This is your home.");
         }
+
+        private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
