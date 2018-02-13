@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SuperAdventure
 {
-    class Player : LivingCreature
+    public class Player : LivingCreature
     {
         public int Gold { get; set; }
         public int ExperiencePoints { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SuperAdventure.Engine
 {
-    class Monster : LivingCreature
+    public class Monster : LivingCreature
     {
         public int ID { get; set; }
         public string Name { get; set; }

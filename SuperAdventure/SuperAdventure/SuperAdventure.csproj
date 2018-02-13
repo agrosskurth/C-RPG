@@ -57,6 +57,7 @@
     <Compile Include="Engine\Quest.cs" />
     <Compile Include="Engine\QuestCompletionItem.cs" />
     <Compile Include="Engine\Weapon.cs" />
+    <Compile Include="Engine\World.cs" />
     <Compile Include="SuperAdventure.cs">
       <SubType>Form</SubType>
     </Compile>

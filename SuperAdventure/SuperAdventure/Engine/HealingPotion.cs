@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SuperAdventure.Engine
 {
-    class HealingPotion : Item
+    public class HealingPotion : Item
     {
         public int AmountToHeal { get; set; }
 

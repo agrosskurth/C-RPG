@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SuperAdventure.Engine
 {
-    class Weapon : Item
+    public class Weapon : Item
     {
         public int MaximumDamage { get; set; }
         public int MinumumDamage { get; set; }

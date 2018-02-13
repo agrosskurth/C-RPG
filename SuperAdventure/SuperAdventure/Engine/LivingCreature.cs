@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SuperAdventure.Engine
 {
-    class LivingCreature
+    public class LivingCreature
     {
         public int CurrentHitpoints { get; set; }
         public int MaximumHitpoints { get; set; }
