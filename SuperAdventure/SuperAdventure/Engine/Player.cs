@@ -14,6 +14,7 @@ namespace SuperAdventure
         public int Level { get; set; }
         public List<InventoryItem> Inventory {get; set;}
         public List<PlayerQuest> Quests { get; set; }
+        public Location CurrentLocation { get; set; }
 
         public Player(int currenthp, int maxhp, int gold, int exp, int level) : base(currenthp, maxhp)
         {

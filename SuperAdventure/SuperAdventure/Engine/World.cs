@@ -121,19 +121,19 @@ namespace SuperAdventure.Engine
             home.LocationToNorth = townSquare;
 
             townSquare.LocationToNorth = alchemistHut;
-            townSquare.LocationToSout = home;
+            townSquare.LocationToSouth = home;
             townSquare.LocationToEast = guardPost;
-            townSquare.LocationToWest = farmersField;
+            townSquare.LocationToWest = farmhouse;
 
             farmhouse.LocationToEast = townSquare;
             farmhouse.LocationToWest = farmersField;
 
             farmersField.LocationToEast = farmhouse;
 
-            alchemistHut.LocationToSout = townSquare;
+            alchemistHut.LocationToSouth = townSquare;
             alchemistHut.LocationToNorth = alchemistGarden;
 
-            alchemistGarden.LocationToSout = alchemistHut;
+            alchemistGarden.LocationToSouth = alchemistHut;
 
             guardPost.LocationToEast = bridge;
             guardPost.LocationToWest = townSquare;

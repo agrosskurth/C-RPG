@@ -16,7 +16,7 @@ namespace SuperAdventure.Engine
         public Monster MonsterLivingHere { get; set; }
         public Location LocationToNorth { get; set; }
         public Location LocationToEast { get; set; }
-        public Location LocationToSout { get; set; }
+        public Location LocationToSouth { get; set; }
         public Location LocationToWest { get; set; }
 
         public Location(int id, string name, string desc, Item itemreqtoenter = null, Quest questavailhere = null, Monster monsterlivinghere = null)

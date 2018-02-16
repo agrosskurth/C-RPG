@@ -11,10 +11,10 @@ namespace SuperAdventure.Engine
         public Quest Details { get; set; }
         public bool IsCompleted { get; set; }
 
-        public PlayerQuest(Quest details, bool iscompleted)
+        public PlayerQuest(Quest details)
         {
             Details = details;
-            IsCompleted = iscompleted;
+            IsCompleted = false;
         }
     }
 }
